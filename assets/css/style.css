@@ -1,0 +1,78 @@
+body{
+    color: #133152;
+    background-image: url(../images/mountain-bg.jpg)
+}
+header{
+    background-color: #aab1cd;
+    text-align: center;
+    padding: 20px;
+    border-top: dashed 6px #133152;
+    border-bottom: dashed 6px #133152;
+    margin-top: 15px;
+}
+h1{
+    font-size: 48px;
+}
+table{
+    text-align: center;
+    width: 100%;
+}
+input{
+    width: 100%;
+}
+th{
+    background-color:#6687c8;
+    font-size: 16;
+    font-weight: bold;
+    padding: 10px 0;
+    border: solid 3px #fbfbfd;
+}
+td{
+    padding: 5px 0;
+}
+tr:nth-child(odd){
+    color:#133152;
+    background-color: #aab1cd;
+}
+#table-container{
+    color: #aab1cd;
+    background-color: #133152;
+    width: 80%;
+    margin: auto;
+    border: solid 8px #133152;
+    border-bottom:solid 12px #133152;
+    border-radius: 10px;
+}
+#input-div{
+    background-color: #aab1cd;
+    width: 40%;
+    text-align: center;
+    padding: 20px;
+    border: solid 4px #6687c8;
+    border-radius: 10px;
+    margin: auto;
+}
+label{
+    float: left;
+}
+#train-submit{
+    color: #fbfbfd;
+    background-color:#133152;
+    padding: 5px;
+    font-size: 18px;
+    border-radius: 5px;
+    border: solid 2px #6687c8;
+}
+#name-validate ,  #destination-validate ,  #time-validate , #frequency-validate{
+    color: #f77676;
+    float: center;
+}
+.remove-button{
+    background-color: inherit;
+    color: inherit;
+    border-radius: 3px;
+    border: solid 1px #fbfbfd;
+}
+input{
+    border-radius: 3px;
+}
